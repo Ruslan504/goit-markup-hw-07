@@ -1,33 +1,35 @@
-.clients__title {
-  font-size: 36px;
-  line-height: 1.17;
-  color: var(--black-color);
-  text-align: center;
-  margin-bottom: 50px;
-}
-.clients__list {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-.clients__block-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 92px;
-  width: 170px;
+.clients {
+  &__title {
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--black-color);
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__block-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+    width: 170px;
 
-  border: 1px solid var(--icon-fill-color);
-  border-radius: 4px;
+    border: 1px solid var(--icon-fill-color);
+    border-radius: 4px;
 
-  transition-property: border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-.clients__block-link:hover,
-.clients__block-link:focus {
-  border: 1px solid var(--blue-color);
+  &__block-link:hover,
+  &__block-link:focus {
+    border: 1px solid var(--blue-color);
+  }
 }
 
 .icon-client1 {
